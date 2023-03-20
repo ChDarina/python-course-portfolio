@@ -1,0 +1,7 @@
+{% block author %}
+<ul class="list-unstyled">
+    <li><a href="{{ author.resume_url }}" class="text-white">Мое резюме</a></li>
+    <li><a href="{{ author.github_url }}" class="text-white">Мой GitHub-репозиторий</a></li>
+    <li><a href="mailto:{{ author.email }}" class="text-white">Моя почта</a></li>
+</ul>
+{% endblock %}
